@@ -1,0 +1,14 @@
+---
+title: "Proposal"
+author: "Group 6"
+date: "`r Sys.Date()`"
+execute: 
+  echo: true   
+  eval: true
+  warning: false
+editor: visual
+---
+
+11111111111111111111111111111111111111
+
+11111111111111111111111111111111

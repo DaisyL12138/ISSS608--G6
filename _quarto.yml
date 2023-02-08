@@ -5,13 +5,28 @@ website:
   title: "ISSS608--G6"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    - text: "Home"
+      href: index.qmd
+  
+    - text: "Proposal"
+      href: proposal.qmd
+      
+    #- text: "Poster"
+      #href: poster.pptx
 
+    #- text: "Shiny Application"
+    
+    #- text: "User Guide"
+     
+     
+    right:
+      - text: Github
+        href: https://github.com/DaisyL12138/ISSS608--G6
+      - text: "About us""
+        href: aboutus.qmd
 format:
   html:
-    theme: cosmo
+    theme: slate
     css: styles.css
     toc: true
 
