@@ -4,6 +4,7 @@ project:
 website:
   title: "ISSS608--G6"
   navbar:
+    background: dark
     left:
     - text: "Home"
       href: index.qmd
@@ -28,7 +29,7 @@ website:
         #href: aboutus.qmd
 format:
   html:
-    theme: slate
+    theme: Journal
     css: styles.css
     toc: true
 
