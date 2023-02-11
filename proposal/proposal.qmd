@@ -1,0 +1,22 @@
+---
+title: "Proposal"
+author: "Li Xingyun, Li Yixuan, Wang Ruipeng"
+date: "11 Feb 2023"
+date-modified: "`r Sys.Date()`"
+format: html
+editor: visual
+---
+
+## Motivation
+
+Energy resources and demand are important factors in our daily lives and the global economy. The demand for energy is growing as the world's population increases, but the increasing use of energy also contributes to global warming and climate change. The purpose of this project is to examine the energy resources and demand in different countries and regions over the past three years, with a focus on reducing carbon emissions. By analyzing energy generation patterns and identifying areas where changes can be made, we hope to raise awareness and motivate individuals, businesses, and governments to take action towards a more sustainable future. 
+
+## Dataset
+
+The dataset utilized in this study was obtained from [ember-climate.org](https://ember-climate.org/data-catalogue/monthly-electricity-data/), featuring comprehensive monthly generation, emissions, and demand data for *85* geographies. The time frame under investigation ranges from *2017* to *2021*.
+
+## Possible Packages
+
+The following are the packages required for this project, including but not limited to: `Tidyverse`, `lubridate`, `ggiraph`, `gganimate`, `ggstatsplot`, `infer.`
+
+## Proposed Visualization
