@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ISSS608–G6",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n11111"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -14,25 +7,18 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ISSS608–G6",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n11111"
+  },
+  {
     "objectID": "proposal/proposal.html",
     "href": "proposal/proposal.html",
     "title": "Proposal",
     "section": "",
     "text": "Energy resources and demand are important factors in our daily lives and the global economy. The demand for energy is growing as the world’s population increases, but the increasing use of energy also contributes to global warming and climate change. The purpose of this project is to examine the energy resources and demand in different countries and regions over the past three years, with a focus on reducing carbon emissions. By analyzing energy generation patterns and identifying areas where changes can be made, we hope to raise awareness and motivate individuals, businesses, and governments to take action towards a more sustainable future."
-  },
-  {
-    "objectID": "proposal/proposal.html#problems",
-    "href": "proposal/proposal.html#problems",
-    "title": "Proposal",
-    "section": "Problems",
-    "text": "Problems\nThe dataset utilized in this study was obtained from ember-climate.org, featuring comprehensive monthly generation, emissions, and demand data for 85 geographies. The time frame under investigation ranges from 2017 to 2021."
-  },
-  {
-    "objectID": "proposal.html",
-    "href": "proposal.html",
-    "title": "Proposal",
-    "section": "",
-    "text": "11111111111111111111111111111111111111\n11111111111111111111111111111111"
   },
   {
     "objectID": "proposal/proposal.html#dataset",
@@ -54,5 +40,12 @@
     "title": "Proposal",
     "section": "Proposed Visualization",
     "text": "Proposed Visualization"
+  },
+  {
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Proposal",
+    "section": "",
+    "text": "11111111111111111111111111111111111111\n11111111111111111111111111111111"
   }
 ]
