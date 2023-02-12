@@ -1,19 +1,13 @@
 ---
-title: "ISSS608--G6"
-author: "Group 6"
-date: "`r Sys.Date()`"
+title: "Go Net Zero - The Global Energy Generation Resources and Demand Analysis From 2017 to 2021"
+author: "Li Xingyun, Li Yixuan, Wang Ruipeng"
+date: "Feb 2023"
 execute: 
   echo: true   
   eval: true
   warning: false
 ---
 
-This is a Quarto website.
+### Background
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
-
-11111
+Energy resources and demand are important factors in our daily lives and the global economy. The demand for energy is growing as the world's population increases, but the increasing use of energy also contributes to global warming and climate change. The purpose of this project is to examine the energy resources and demand in different countries and regions over the past three years, with a focus on reducing carbon emissions. By analyzing energy generation patterns and identifying areas where changes can be made, we hope to raise awareness and motivate individuals, businesses, and governments to take action towards a more sustainable future. 

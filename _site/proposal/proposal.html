@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -113,7 +113,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
   <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
   <li><a href="#possible-packages" id="toc-possible-packages" class="nav-link" data-scroll-target="#possible-packages">Possible Packages</a></li>
-  <li><a href="#proposed-visualization" id="toc-proposed-visualization" class="nav-link" data-scroll-target="#proposed-visualization">Proposed Visualization</a></li>
+  <li><a href="#proposed-visualization" id="toc-proposed-visualization" class="nav-link" data-scroll-target="#proposed-visualization">Proposed Visualization</a>
+  <ul class="collapse">
+  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
+  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
+  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
+  <li><a href="#problem-4" id="toc-problem-4" class="nav-link" data-scroll-target="#problem-4">Problem 4</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -146,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 11, 2023</p>
+      <p class="date-modified">February 12, 2023</p>
     </div>
   </div>
     
@@ -165,12 +171,62 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="possible-packages" class="level2">
 <h2 class="anchored" data-anchor-id="possible-packages">Possible Packages</h2>
-<p>The following are the packages required for this project, including but not limited to: <code>Tidyverse</code>, <code>lubridate</code>, <code>ggiraph</code>, <code>gganimate</code>, <code>ggstatsplot</code>, <code>infer.</code></p>
+<p>The following are the packages required for this project, including but not limited to: <code>Tidyverse</code>, <code>lubridate</code>, <code>ggiraph</code>, <code>gganimate</code>, <code>ggstatsplot</code>, <code>infer</code>.</p>
 </section>
 <section id="proposed-visualization" class="level2">
 <h2 class="anchored" data-anchor-id="proposed-visualization">Proposed Visualization</h2>
+<section id="problem-1" class="level3">
+<h3 class="anchored" data-anchor-id="problem-1">Problem 1</h3>
+<section id="analysis" class="level4">
+<h4 class="anchored" data-anchor-id="analysis">Analysis</h4>
+<p>Fossil fuel dependence: One problem to examine is the extent to which different countries and regions rely on fossil fuels compared to clean energy sources. This information can highlight areas where greater investment in renewable energy sources is needed.</p>
+<p>It is observed from the monthly electricity data that there are two types of energy sources in general: import and generate, and in the method of generation, there are clean and fossil.</p>
+<p>So that we have:</p>
+<p><code>Net import + total generation = Demand</code></p>
+<p><code>Total generation = Clean + Fossil</code></p>
+<p><code>Clean Energy = Renewable Energy + Nuclear Energy</code></p>
+</section>
+<section id="skeleton" class="level4">
+<h4 class="anchored" data-anchor-id="skeleton">Skeleton</h4>
+<p><img src="pic/tab1.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="problem-2" class="level3">
+<h3 class="anchored" data-anchor-id="problem-2">Problem 2</h3>
+<section id="analysis-1" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-1">Analysis</h4>
+<p>This sector would be focusing on CO2 emissions. It is planned to provide both a horizontal and a vertical comparison of CO2 emissions among various countries within the same geographic or political category, as well as the same country within a specific period. Upon monitoring the CO2 emissions, we will also observe what the correlations are between emissions and electricity indexes for each country with a heatmap.</p>
+</section>
+<section id="skeleton-1" class="level4">
+<h4 class="anchored" data-anchor-id="skeleton-1">Skeleton</h4>
+<p><img src="pic/tab2-1.png" class="img-fluid"></p>
+<p><img src="pic/tab2-2.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="problem-3" class="level3">
+<h3 class="anchored" data-anchor-id="problem-3">Problem 3</h3>
+<section id="analysis-2" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-2">Analysis</h4>
+<p>Energy demand vs generation: It’s important to examine the gap between energy demand and generation in different countries and regions. This information can be used to inform infrastructure planning and investment decisions to meet growing energy needs in a sustainable way.</p>
+</section>
+<section id="skeleton-2" class="level4">
+<h4 class="anchored" data-anchor-id="skeleton-2">Skeleton</h4>
+<p><img src="pic/tab3.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="problem-4" class="level3">
+<h3 class="anchored" data-anchor-id="problem-4">Problem 4</h3>
+<section id="analysis-3" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-3">Analysis</h4>
+<p>Geo map visualization: It is planned to visualize the previous three analyses on the Geo map, another heatmap layer will be applied on top of the map to give audiences a better understanding of the correlation between different countries and continents.</p>
+</section>
+<section id="skeleton-3" class="level4">
+<h4 class="anchored" data-anchor-id="skeleton-3">Skeleton</h4>
+<p><img src="pic/tab4.png" class="img-fluid"></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

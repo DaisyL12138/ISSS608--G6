@@ -17,6 +17,58 @@ The dataset utilized in this study was obtained from [ember-climate.org](https:/
 
 ## Possible Packages
 
-The following are the packages required for this project, including but not limited to: `Tidyverse`, `lubridate`, `ggiraph`, `gganimate`, `ggstatsplot`, `infer.`
+The following are the packages required for this project, including but not limited to: `Tidyverse`, `lubridate`, `ggiraph`, `gganimate`, `ggstatsplot`, `infer`.
 
 ## Proposed Visualization
+
+### Problem 1
+
+#### Analysis
+
+Fossil fuel dependence: One problem to examine is the extent to which different countries and regions rely on fossil fuels compared to clean energy sources. This information can highlight areas where greater investment in renewable energy sources is needed.
+
+It is observed from the monthly electricity data that there are two types of energy sources in general: import and generate, and in the method of generation, there are clean and fossil.
+
+So that we have:
+
+`Net import + total generation = Demand`
+
+`Total generation = Clean + Fossil`
+
+`Clean Energy = Renewable Energy + Nuclear Energy`
+
+#### Skeleton
+
+![](pic/tab1.png)
+
+### Problem 2
+
+#### Analysis
+
+This sector would be focusing on CO2 emissions. It is planned to provide both a horizontal and a vertical comparison of CO2 emissions among various countries within the same geographic or political category, as well as the same country within a specific period. Upon monitoring the CO2 emissions, we will also observe what the correlations are between emissions and electricity indexes for each country with a heatmap.
+
+#### Skeleton
+
+![](pic/tab2-1.png)
+
+![](pic/tab2-2.png)
+
+### Problem 3
+
+#### Analysis
+
+Energy demand vs generation: It's important to examine the gap between energy demand and generation in different countries and regions. This information can be used to inform infrastructure planning and investment decisions to meet growing energy needs in a sustainable way.
+
+#### Skeleton
+
+![](pic/tab3.png)
+
+### Problem 4
+
+#### Analysis
+
+Geo map visualization: It is planned to visualize the previous three analyses on the Geo map, another heatmap layer will be applied on top of the map to give audiences a better understanding of the correlation between different countries and continents.
+
+#### Skeleton
+
+![](pic/tab4.png)
