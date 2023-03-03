@@ -9,7 +9,7 @@ website:
     - text: "Home"
       href: index.qmd
     - text: "Proposal"
-      href: "proposal/proposal.qmd"
+      href: "proposal/proposal2.qmd"
   
     #- text: "Proposal"
       #href: proposal.qmd
