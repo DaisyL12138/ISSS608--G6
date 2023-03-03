@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Go Net Zero - The Global Energy Generation Resources and Demand Analysis From 2017 to 2021",
+    "title": "Electricity Price Analysis in Europe: The Impact of the War between Russia and Ukraine",
     "section": "",
-    "text": "Background\nEnergy resources and demand are important factors in our daily lives and the global economy. The demand for energy is growing as the world’s population increases, but the increasing use of energy also contributes to global warming and climate change. The purpose of this project is to examine the energy resources and demand in different countries and regions over the past three years, with a focus on reducing carbon emissions. By analyzing energy generation patterns and identifying areas where changes can be made, we hope to raise awareness and motivate individuals, businesses, and governments to take action towards a more sustainable future."
+    "text": "Background\nThe European electricity market is one of the largest and most complex in the world, with a diverse range of producers and consumers spread across multiple countries. The wholesale price of electricity in Europe is affected by various factors, including supply and demand, weather conditions, economic indicators, and geopolitical events.\nThe ongoing conflict between Russia and Ukraine is one of the most significant geopolitical events in recent years. This conflict has had far-reaching effects across Europe, including the electricity market. The two countries are significant players in the European energy market, with Russia being one of the largest suppliers of natural gas and Ukraine serving as a key transit country for gas supplies to Europe.\nThe conflict has caused disruptions to energy supplies, leading to price spikes and volatility in the European wholesale electricity market. It has also highlighted the importance of diversifying energy sources and reducing dependence on a small number of suppliers.\nIn this context, there is a need for analysis and forecasting of the European wholesale electricity market to understand the impact of the conflict and other factors on electricity prices. Time series forecasting can provide valuable insights into future trends and help businesses and consumers make informed decisions about their energy usage and investments.\nThis project aims to address this need by analyzing the impact of the Russia-Ukraine conflict on electricity prices in Europe and conducting time series forecasting of wholesale electricity prices for all European countries. The results of this analysis and forecasting will be presented through various informative, visually appealing visualizations, which will help stakeholders in the European energy market make better-informed decisions about their energy usage and investments."
   },
   {
     "objectID": "about.html",
@@ -12,6 +12,41 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "proposal/proposal2.html",
+    "href": "proposal/proposal2.html",
+    "title": "Proposal",
+    "section": "",
+    "text": "The motivation behind this project is to gain insights into the European wholesale electricity market and to understand the impact of the ongoing conflict between Russia and Ukraine on electricity prices. The European electricity market is critical to the region’s economy, and wholesale electricity prices can significantly affect businesses, consumers, and governments.\nThe ongoing conflict between Russia and Ukraine has led to significant disruptions in energy supplies and has caused price spikes and volatility in the European wholesale electricity market. It has also highlighted the importance of diversifying energy sources and reducing dependence on a small number of suppliers.\nBy analyzing the impact of the conflict on electricity prices in Europe and conducting time series forecasting of wholesale electricity prices for all European countries, this project aims to provide valuable insights into future trends and help businesses and consumers make informed decisions about their energy usage and investments. The results of this analysis and forecasting will also interest policymakers and industry experts tasked with ensuring the stability and sustainability of the European energy market."
+  },
+  {
+    "objectID": "proposal/proposal2.html#dataset",
+    "href": "proposal/proposal2.html#dataset",
+    "title": "Proposal",
+    "section": "Dataset",
+    "text": "Dataset\nWe will use the European wholesale electricity price data dataset for this project, which contains three columns: country, timestamp, and electricity price. The dataset covers hourly, daily, and monthly electricity prices for all European countries."
+  },
+  {
+    "objectID": "proposal/proposal2.html#objectives",
+    "href": "proposal/proposal2.html#objectives",
+    "title": "Proposal",
+    "section": "Objectives",
+    "text": "Objectives\n\nAnalyze the impact of the war between Russia and Ukraine on electricity prices in Europe.\nConduct time series forecasting of electricity prices for all European countries.\nCreate visualizations that help us understand the variation in electricity prices across different countries, seasons, and time periods."
+  },
+  {
+    "objectID": "proposal/proposal2.html#possible-packages",
+    "href": "proposal/proposal2.html#possible-packages",
+    "title": "Proposal",
+    "section": "Possible Packages",
+    "text": "Possible Packages\nThe following are the packages required for this project, including but not limited to: Tidyverse, lubridate, ggiraph, gganimate, ggstatsplot, infer."
+  },
+  {
+    "objectID": "proposal/proposal2.html#proposed-visualization",
+    "href": "proposal/proposal2.html#proposed-visualization",
+    "title": "Proposal",
+    "section": "Proposed Visualization",
+    "text": "Proposed Visualization"
   },
   {
     "objectID": "proposal/proposal.html",

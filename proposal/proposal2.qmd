@@ -1,0 +1,34 @@
+---
+title: "Proposal"
+author: "Li Xingyun, Li Yixuan, Wang Ruipeng"
+date: "11 Feb 2023"
+date-modified: "`r Sys.Date()`"
+format: html
+editor: visual
+---
+
+## Motivation
+
+The motivation behind this project is to gain insights into the European wholesale electricity market and to understand the impact of the ongoing conflict between Russia and Ukraine on electricity prices. The European electricity market is critical to the region's economy, and wholesale electricity prices can significantly affect businesses, consumers, and governments.
+
+The ongoing conflict between Russia and Ukraine has led to significant disruptions in energy supplies and has caused price spikes and volatility in the European wholesale electricity market. It has also highlighted the importance of diversifying energy sources and reducing dependence on a small number of suppliers.
+
+By analyzing the impact of the conflict on electricity prices in Europe and conducting time series forecasting of wholesale electricity prices for all European countries, this project aims to provide valuable insights into future trends and help businesses and consumers make informed decisions about their energy usage and investments. The results of this analysis and forecasting will also interest policymakers and industry experts tasked with ensuring the stability and sustainability of the European energy market.
+
+## Dataset
+
+We will use the [European wholesale electricity price data](https://ember-climate.org/data-catalogue/european-wholesale-electricity-price-data/) dataset for this project, which contains three columns: country, timestamp, and electricity price. The dataset covers hourly, daily, and monthly electricity prices for all European countries.
+
+## Objectives
+
+1.  Analyze the impact of the war between Russia and Ukraine on electricity prices in Europe.
+
+2.  Conduct time series forecasting of electricity prices for all European countries.
+
+3.  Create visualizations that help us understand the variation in electricity prices across different countries, seasons, and time periods.
+
+## Possible Packages
+
+The following are the packages required for this project, including but not limited to: `Tidyverse`, `lubridate`, `ggiraph`, `gganimate`, `ggstatsplot`, `infer`.
+
+## Proposed Visualization
