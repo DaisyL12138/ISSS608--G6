@@ -9,7 +9,7 @@
 <meta name="author" content="Li Xingyun, Li Yixuan, Wang Ruipeng">
 <meta name="dcterms.date" content="2023-02-11">
 
-<title>ISSS608–G6 - Proposal</title>
+<title>ISSS608–G6 - Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../proposal/proposal2.html" aria-current="page">
- <span class="menu-text">Proposal</span></a>
+ <span class="menu-text">Overview</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -113,8 +113,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
   <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#possible-packages" id="toc-possible-packages" class="nav-link" data-scroll-target="#possible-packages">Possible Packages</a></li>
-  <li><a href="#proposed-visualization" id="toc-proposed-visualization" class="nav-link" data-scroll-target="#proposed-visualization">Proposed Visualization</a></li>
+  <li><a href="#proposed-visualization" id="toc-proposed-visualization" class="nav-link" data-scroll-target="#proposed-visualization">Proposed Visualization</a>
+  <ul class="collapse">
+  <li><a href="#regional-insights" id="toc-regional-insights" class="nav-link" data-scroll-target="#regional-insights">Regional Insights</a></li>
+  <li><a href="#geographic-visualisation" id="toc-geographic-visualisation" class="nav-link" data-scroll-target="#geographic-visualisation">Geographic Visualisation</a></li>
+  <li><a href="#time-series-forecast" id="toc-time-series-forecast" class="nav-link" data-scroll-target="#time-series-forecast">Time Series Forecast</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -123,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proposal</h1>
+<h1 class="title">Overview</h1>
 </div>
 
 
@@ -147,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 3, 2023</p>
+      <p class="date-modified">March 30, 2023</p>
     </div>
   </div>
     
@@ -174,14 +178,35 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Create visualizations that help us understand the variation in electricity prices across different countries, seasons, and time periods.</p></li>
 </ol>
 </section>
-<section id="possible-packages" class="level2">
-<h2 class="anchored" data-anchor-id="possible-packages">Possible Packages</h2>
-<p>The following are the packages required for this project, including but not limited to: <code>Tidyverse</code>, <code>lubridate</code>, <code>ggiraph</code>, <code>gganimate</code>, <code>ggstatsplot</code>, <code>infer</code>.</p>
-</section>
 <section id="proposed-visualization" class="level2">
 <h2 class="anchored" data-anchor-id="proposed-visualization">Proposed Visualization</h2>
+<section id="regional-insights" class="level3">
+<h3 class="anchored" data-anchor-id="regional-insights">Regional Insights</h3>
+<p><img src="pic/RI1.png" class="img-fluid"></p>
+<p><img src="pic/RI2.png" class="img-fluid"></p>
+<ol type="1">
+<li><p><strong>Line chart</strong></p>
+<p>The line chart was used to visualize the price trend of selected countries over the period of Jan 2015 to Jan 2023. This method provided a clear picture of how electricity prices have evolved over time in different countries. By selecting a subset of countries for comparison, businesses and analysts can better understand the differences in electricity pricing across Europe, as well as the impact of specific events, policies, or other factors on prices.</p></li>
+<li><p><strong>Heat Map</strong></p>
+<p>The heat map was used to show the relationship between different days in a week and different hours in a day. This method is useful for understanding the patterns and trends in electricity consumption over time. By analyzing the heat map, businesses and analysts can identify peak and off-peak periods of electricity consumption, which can inform decisions about pricing, capacity planning, and energy efficiency initiatives.</p></li>
+<li><p><strong>Price Comparison</strong></p>
+<p>The price comparison method was used to compare the prices for the same month across different years. This method provides a useful way to understand how electricity prices have changed over time and to identify patterns or trends in price movements. By comparing prices across different years, businesses and analysts can identify factors that have contributed to price changes, such as changes in the energy mix, shifts in demand patterns, or other external factors. This information can inform pricing strategies and energy procurement decisions.</p></li>
+</ol>
+</section>
+<section id="geographic-visualisation" class="level3">
+<h3 class="anchored" data-anchor-id="geographic-visualisation">Geographic Visualisation</h3>
+<p><img src="pic/geo.png" class="img-fluid"></p>
+<p>The geographic visualisation analysis used country location and price to create an interactive and dynamic visualization of electricity prices in Europe. The method involved using a colour-coded map of Europe, with each country’s price represented by a different colour or shade. The intensity of the colour or shade represented the depth of the price, with darker colours indicating higher prices.</p>
+<p>The visualisation was presented in GIF format, which allowed the audience to view the price change smoothly over time. This provided a useful way to understand the fluctuations and trends in electricity prices across Europe. By visualizing the price changes in this way, businesses and analysts could quickly identify areas of high or low pricing, as well as the factors that contributed to price movements.</p>
+</section>
+<section id="time-series-forecast" class="level3">
+<h3 class="anchored" data-anchor-id="time-series-forecast">Time Series Forecast</h3>
+<p><img src="pic/fcast.png" class="img-fluid"></p>
+<p>The Prohect and ARIMA models were used to forecast the electricity prices in Europe for a user-entered number of days. This method involved analyzing historical price data, identifying trends and patterns, and then using these insights to generate forecasts for future prices.</p>
+<p>The results of the analysis were visualized using a line chart, which provided a clear and concise representation of the forecasted prices over time. By adjusting the number of days input by the user, businesses and analysts could generate forecasts for different time horizons, allowing for more informed decision-making and planning.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

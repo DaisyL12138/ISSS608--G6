@@ -1,12 +1,14 @@
 ---
 title: "Electricity Price Analysis in Europe: The Impact of the War between Russia and Ukraine"
-author: "Li Xingyun, Li Yixuan, Wang Ruipeng"
-date: "Feb 2023"
+author: "Li Xing Yun, Li Yi Xuan, Wang Rui Peng"
+date: "`r Sys.Date()`"
 execute: 
   echo: true   
   eval: true
   warning: false
 ---
+
+![](RussiaEnergy_IB.jpg)
 
 ### Background
 
