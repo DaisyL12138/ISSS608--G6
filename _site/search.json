@@ -16,37 +16,30 @@
   {
     "objectID": "proposal/proposal2.html",
     "href": "proposal/proposal2.html",
-    "title": "Proposal",
+    "title": "Overview",
     "section": "",
     "text": "The motivation behind this project is to gain insights into the European wholesale electricity market and to understand the impact of the ongoing conflict between Russia and Ukraine on electricity prices. The European electricity market is critical to the region’s economy, and wholesale electricity prices can significantly affect businesses, consumers, and governments.\nThe ongoing conflict between Russia and Ukraine has led to significant disruptions in energy supplies and has caused price spikes and volatility in the European wholesale electricity market. It has also highlighted the importance of diversifying energy sources and reducing dependence on a small number of suppliers.\nBy analyzing the impact of the conflict on electricity prices in Europe and conducting time series forecasting of wholesale electricity prices for all European countries, this project aims to provide valuable insights into future trends and help businesses and consumers make informed decisions about their energy usage and investments. The results of this analysis and forecasting will also interest policymakers and industry experts tasked with ensuring the stability and sustainability of the European energy market."
   },
   {
     "objectID": "proposal/proposal2.html#dataset",
     "href": "proposal/proposal2.html#dataset",
-    "title": "Proposal",
+    "title": "Overview",
     "section": "Dataset",
     "text": "Dataset\nWe will use the European wholesale electricity price data dataset for this project, which contains three columns: country, timestamp, and electricity price. The dataset covers hourly, daily, and monthly electricity prices for all European countries."
   },
   {
     "objectID": "proposal/proposal2.html#objectives",
     "href": "proposal/proposal2.html#objectives",
-    "title": "Proposal",
+    "title": "Overview",
     "section": "Objectives",
     "text": "Objectives\n\nAnalyze the impact of the war between Russia and Ukraine on electricity prices in Europe.\nConduct time series forecasting of electricity prices for all European countries.\nCreate visualizations that help us understand the variation in electricity prices across different countries, seasons, and time periods."
   },
   {
-    "objectID": "proposal/proposal2.html#possible-packages",
-    "href": "proposal/proposal2.html#possible-packages",
-    "title": "Proposal",
-    "section": "Possible Packages",
-    "text": "Possible Packages\nThe following are the packages required for this project, including but not limited to: Tidyverse, lubridate, ggiraph, gganimate, ggstatsplot, infer."
-  },
-  {
     "objectID": "proposal/proposal2.html#proposed-visualization",
     "href": "proposal/proposal2.html#proposed-visualization",
-    "title": "Proposal",
+    "title": "Overview",
     "section": "Proposed Visualization",
-    "text": "Proposed Visualization"
+    "text": "Proposed Visualization\n\nRegional Insights\n\n\n\nLine chart\nThe line chart was used to visualize the price trend of selected countries over the period of Jan 2015 to Jan 2023. This method provided a clear picture of how electricity prices have evolved over time in different countries. By selecting a subset of countries for comparison, businesses and analysts can better understand the differences in electricity pricing across Europe, as well as the impact of specific events, policies, or other factors on prices.\nHeat Map\nThe heat map was used to show the relationship between different days in a week and different hours in a day. This method is useful for understanding the patterns and trends in electricity consumption over time. By analyzing the heat map, businesses and analysts can identify peak and off-peak periods of electricity consumption, which can inform decisions about pricing, capacity planning, and energy efficiency initiatives.\nPrice Comparison\nThe price comparison method was used to compare the prices for the same month across different years. This method provides a useful way to understand how electricity prices have changed over time and to identify patterns or trends in price movements. By comparing prices across different years, businesses and analysts can identify factors that have contributed to price changes, such as changes in the energy mix, shifts in demand patterns, or other external factors. This information can inform pricing strategies and energy procurement decisions.\n\n\n\nGeographic Visualisation\n\nThe geographic visualisation analysis used country location and price to create an interactive and dynamic visualization of electricity prices in Europe. The method involved using a colour-coded map of Europe, with each country’s price represented by a different colour or shade. The intensity of the colour or shade represented the depth of the price, with darker colours indicating higher prices.\nThe visualisation was presented in GIF format, which allowed the audience to view the price change smoothly over time. This provided a useful way to understand the fluctuations and trends in electricity prices across Europe. By visualizing the price changes in this way, businesses and analysts could quickly identify areas of high or low pricing, as well as the factors that contributed to price movements.\n\n\nTime Series Forecast\n\nThe Prohect and ARIMA models were used to forecast the electricity prices in Europe for a user-entered number of days. This method involved analyzing historical price data, identifying trends and patterns, and then using these insights to generate forecasts for future prices.\nThe results of the analysis were visualized using a line chart, which provided a clear and concise representation of the forecasted prices over time. By adjusting the number of days input by the user, businesses and analysts could generate forecasts for different time horizons, allowing for more informed decision-making and planning."
   },
   {
     "objectID": "proposal/proposal.html",

@@ -1,5 +1,5 @@
 ---
-title: "Proposal"
+title: "Overview"
 author: "Li Xingyun, Li Yixuan, Wang Ruipeng"
 date: "11 Feb 2023"
 date-modified: "`r Sys.Date()`"
@@ -27,8 +27,38 @@ We will use the [European wholesale electricity price data](https://ember-climat
 
 3.  Create visualizations that help us understand the variation in electricity prices across different countries, seasons, and time periods.
 
-## Possible Packages
-
-The following are the packages required for this project, including but not limited to: `Tidyverse`, `lubridate`, `ggiraph`, `gganimate`, `ggstatsplot`, `infer`.
-
 ## Proposed Visualization
+
+### Regional Insights
+
+![](pic/RI1.png)
+
+![](pic/RI2.png)
+
+1.  **Line chart**
+
+    The line chart was used to visualize the price trend of selected countries over the period of Jan 2015 to Jan 2023. This method provided a clear picture of how electricity prices have evolved over time in different countries. By selecting a subset of countries for comparison, businesses and analysts can better understand the differences in electricity pricing across Europe, as well as the impact of specific events, policies, or other factors on prices.
+
+2.  **Heat Map**
+
+    The heat map was used to show the relationship between different days in a week and different hours in a day. This method is useful for understanding the patterns and trends in electricity consumption over time. By analyzing the heat map, businesses and analysts can identify peak and off-peak periods of electricity consumption, which can inform decisions about pricing, capacity planning, and energy efficiency initiatives.
+
+3.  **Price Comparison**
+
+    The price comparison method was used to compare the prices for the same month across different years. This method provides a useful way to understand how electricity prices have changed over time and to identify patterns or trends in price movements. By comparing prices across different years, businesses and analysts can identify factors that have contributed to price changes, such as changes in the energy mix, shifts in demand patterns, or other external factors. This information can inform pricing strategies and energy procurement decisions.
+
+### Geographic Visualisation
+
+![](pic/geo.png)
+
+The geographic visualisation analysis used country location and price to create an interactive and dynamic visualization of electricity prices in Europe. The method involved using a colour-coded map of Europe, with each country's price represented by a different colour or shade. The intensity of the colour or shade represented the depth of the price, with darker colours indicating higher prices.
+
+The visualisation was presented in GIF format, which allowed the audience to view the price change smoothly over time. This provided a useful way to understand the fluctuations and trends in electricity prices across Europe. By visualizing the price changes in this way, businesses and analysts could quickly identify areas of high or low pricing, as well as the factors that contributed to price movements.
+
+### Time Series Forecast
+
+![](pic/fcast.png)
+
+The Prohect and ARIMA models were used to forecast the electricity prices in Europe for a user-entered number of days. This method involved analyzing historical price data, identifying trends and patterns, and then using these insights to generate forecasts for future prices.
+
+The results of the analysis were visualized using a line chart, which provided a clear and concise representation of the forecasted prices over time. By adjusting the number of days input by the user, businesses and analysts could generate forecasts for different time horizons, allowing for more informed decision-making and planning.
