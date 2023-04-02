@@ -12,10 +12,10 @@ website:
       href: "proposal/proposal2.qmd"
     - text: "Shiny Application"
       href: https://lixingyun.shinyapps.io/shiny/
-  
-    #- text: "Proposal"
-      #href: proposal.qmd
-      
+    - text: "Poster"
+      href: poster/poster.pdf
+    - text: "User Guide"
+      href: "userguide/userguide-copy.qmd"
     #- text: "Poster"
       #href: poster.pptx
 
