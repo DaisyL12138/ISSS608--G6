@@ -1,0 +1,38 @@
+---
+title: "User Guide"
+author: "Li Xingyun, Li Yixuan, Wang Ruipeng"
+date: "11 Feb 2023"
+date-modified: "`r Sys.Date()`"
+format: html
+editor: visual
+---
+
+# 1 Regional Insights
+
+## 1.1 Multicountries
+
+![](images/1.1.png){fig-align="center"}
+
+Choose the view of comparison between multicountries or single countries.
+
+![](images/1.png)
+
+Check the wanted countries and choose a period (the period should more than one month), then click on 'Confirm'.
+
+## 1.2 Single Country
+
+![](images/2.png)
+
+Choose a single contry and choose a period (the period should more than two years), then click on 'Confirm'.
+
+# 2 Geographic Visual 
+
+![](images/3.png)
+
+Choose a exact data and click on 'Confirm', the distribution of electricity prices will be represented by different colors in the map of Europe.
+
+# 3 Forecasting
+
+![](images/4.png)
+
+Checking the box to choose a preferred forecasting method, select the interesting future period and country, then click on"Generate Forecasting Plot".

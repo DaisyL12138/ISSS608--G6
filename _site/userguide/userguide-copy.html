@@ -9,7 +9,7 @@
 <meta name="author" content="Li Xingyun, Li Yixuan, Wang Ruipeng">
 <meta name="dcterms.date" content="2023-02-11">
 
-<title>ISSS608–G6 - Proposal</title>
+<title>ISSS608–G6 - User Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Poster</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../userguide/userguide-copy.html">
+    <a class="nav-link active" href="../userguide/userguide-copy.html" aria-current="page">
  <span class="menu-text">User Guide</span></a>
   </li>  
 </ul>
@@ -122,16 +122,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
-  <li><a href="#possible-packages" id="toc-possible-packages" class="nav-link" data-scroll-target="#possible-packages">Possible Packages</a></li>
-  <li><a href="#proposed-visualization" id="toc-proposed-visualization" class="nav-link" data-scroll-target="#proposed-visualization">Proposed Visualization</a>
+  <li><a href="#regional-insights" id="toc-regional-insights" class="nav-link active" data-scroll-target="#regional-insights">1 Regional Insights</a>
   <ul class="collapse">
-  <li><a href="#problem-1" id="toc-problem-1" class="nav-link" data-scroll-target="#problem-1">Problem 1</a></li>
-  <li><a href="#problem-2" id="toc-problem-2" class="nav-link" data-scroll-target="#problem-2">Problem 2</a></li>
-  <li><a href="#problem-3" id="toc-problem-3" class="nav-link" data-scroll-target="#problem-3">Problem 3</a></li>
-  <li><a href="#problem-4" id="toc-problem-4" class="nav-link" data-scroll-target="#problem-4">Problem 4</a></li>
+  <li><a href="#multi-countries" id="toc-multi-countries" class="nav-link" data-scroll-target="#multi-countries">1.1 Multi-countries</a></li>
+  <li><a href="#single-country" id="toc-single-country" class="nav-link" data-scroll-target="#single-country">1.2 Single Country</a></li>
   </ul></li>
+  <li><a href="#geographic-visual" id="toc-geographic-visual" class="nav-link" data-scroll-target="#geographic-visual">2 Geographic Visual</a></li>
+  <li><a href="#forecasting" id="toc-forecasting" class="nav-link" data-scroll-target="#forecasting">3 Forecasting</a></li>
   </ul>
 </nav>
     </div>
@@ -140,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proposal</h1>
+<h1 class="title">User Guide</h1>
 </div>
 
 
@@ -173,72 +170,36 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Energy resources and demand are important factors in our daily lives and the global economy. The demand for energy is growing as the world’s population increases, but the increasing use of energy also contributes to global warming and climate change. The purpose of this project is to examine the energy resources and demand in different countries and regions over the past three years, with a focus on reducing carbon emissions. By analyzing energy generation patterns and identifying areas where changes can be made, we hope to raise awareness and motivate individuals, businesses, and governments to take action towards a more sustainable future.&nbsp;</p>
+<section id="regional-insights" class="level1">
+<h1>1 Regional Insights</h1>
+<section id="multi-countries" class="level2">
+<h2 class="anchored" data-anchor-id="multi-countries">1.1 Multi-countries</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/1.1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Choose the view of comparison between multi-countries or single countries.</p>
+<p><img src="images/1.png" class="img-fluid"></p>
+<p>Check the wanted countries and choose a period (the period should more than one month), then click on ‘Confirm’.</p>
 </section>
-<section id="dataset" class="level2">
-<h2 class="anchored" data-anchor-id="dataset">Dataset</h2>
-<p>The dataset utilized in this study was obtained from <a href="https://ember-climate.org/data-catalogue/monthly-electricity-data/">ember-climate.org</a>, featuring comprehensive monthly generation, emissions, and demand data for <em>85</em> geographies. The time frame under investigation ranges from <em>2017</em> to <em>2021</em>.</p>
-</section>
-<section id="possible-packages" class="level2">
-<h2 class="anchored" data-anchor-id="possible-packages">Possible Packages</h2>
-<p>The following are the packages required for this project, including but not limited to: <code>Tidyverse</code>, <code>lubridate</code>, <code>ggiraph</code>, <code>gganimate</code>, <code>ggstatsplot</code>, <code>infer</code>.</p>
-</section>
-<section id="proposed-visualization" class="level2">
-<h2 class="anchored" data-anchor-id="proposed-visualization">Proposed Visualization</h2>
-<section id="problem-1" class="level3">
-<h3 class="anchored" data-anchor-id="problem-1">Problem 1</h3>
-<section id="analysis" class="level4">
-<h4 class="anchored" data-anchor-id="analysis">Analysis</h4>
-<p>Fossil fuel dependence: One problem to examine is the extent to which different countries and regions rely on fossil fuels compared to clean energy sources. This information can highlight areas where greater investment in renewable energy sources is needed.</p>
-<p>It is observed from the monthly electricity data that there are two types of energy sources in general: import and generate, and in the method of generation, there are clean and fossil.</p>
-<p>So that we have:</p>
-<p><code>Net import + total generation = Demand</code></p>
-<p><code>Total generation = Clean + Fossil</code></p>
-<p><code>Clean Energy = Renewable Energy + Nuclear Energy</code></p>
-</section>
-<section id="skeleton" class="level4">
-<h4 class="anchored" data-anchor-id="skeleton">Skeleton</h4>
-<p><img src="pic/tab1.png" class="img-fluid"></p>
+<section id="single-country" class="level2">
+<h2 class="anchored" data-anchor-id="single-country">1.2 Single Country</h2>
+<p><img src="images/2.png" class="img-fluid"></p>
+<p>Choose a single country and choose a period (the period should more than two years), then click on ‘Confirm’.</p>
 </section>
 </section>
-<section id="problem-2" class="level3">
-<h3 class="anchored" data-anchor-id="problem-2">Problem 2</h3>
-<section id="analysis-1" class="level4">
-<h4 class="anchored" data-anchor-id="analysis-1">Analysis</h4>
-<p>This sector would be focusing on CO2 emissions. It is planned to provide both a horizontal and a vertical comparison of CO2 emissions among various countries within the same geographic or political category, as well as the same country within a specific period. Upon monitoring the CO2 emissions, we will also observe what the correlations are between emissions and electricity indexes for each country with a heatmap.</p>
+<section id="geographic-visual" class="level1">
+<h1>2 Geographic Visual</h1>
+<p><img src="images/3.png" class="img-fluid"></p>
+<p>Choose a exact data and click on ‘Confirm’, the distribution of electricity prices will be represented by different colors in the map of Europe.</p>
 </section>
-<section id="skeleton-1" class="level4">
-<h4 class="anchored" data-anchor-id="skeleton-1">Skeleton</h4>
-<p><img src="pic/tab2-1.png" class="img-fluid"></p>
-<p><img src="pic/tab2-2.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="problem-3" class="level3">
-<h3 class="anchored" data-anchor-id="problem-3">Problem 3</h3>
-<section id="analysis-2" class="level4">
-<h4 class="anchored" data-anchor-id="analysis-2">Analysis</h4>
-<p>Energy demand vs generation: It’s important to examine the gap between energy demand and generation in different countries and regions. This information can be used to inform infrastructure planning and investment decisions to meet growing energy needs in a sustainable way.</p>
-</section>
-<section id="skeleton-2" class="level4">
-<h4 class="anchored" data-anchor-id="skeleton-2">Skeleton</h4>
-<p><img src="pic/tab3.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="problem-4" class="level3">
-<h3 class="anchored" data-anchor-id="problem-4">Problem 4</h3>
-<section id="analysis-3" class="level4">
-<h4 class="anchored" data-anchor-id="analysis-3">Analysis</h4>
-<p>Geo map visualization: It is planned to visualize the previous three analyses on the Geo map, another heatmap layer will be applied on top of the map to give audiences a better understanding of the correlation between different countries and continents.</p>
-</section>
-<section id="skeleton-3" class="level4">
-<h4 class="anchored" data-anchor-id="skeleton-3">Skeleton</h4>
-<p><img src="pic/tab4.png" class="img-fluid"></p>
+<section id="forecasting" class="level1">
+<h1>3 Forecasting</h1>
+<p><img src="images/4.png" class="img-fluid"></p>
+<p>Checking the box to choose a preferred forecasting method, select the interesting future period and country, then click on”Generate Forecasting Plot”.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
